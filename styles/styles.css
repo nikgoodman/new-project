@@ -1,0 +1,43 @@
+html,
+body {
+   padding: 0;
+   margin: 0;
+   font-family: var(--primary-font), apple-system, BlinkMacSystemFont, Segoe UI,
+      Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+      sans-serif;
+   background-color: var(--main-bg);
+   color: var(--main-text-color);
+   transition: 0.3s all;
+   -webkit-transition: 0.3s all;
+   -o-transition: 0.3s all;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+.banner {
+   background-image: url("../images/IMAGE.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   width: 100%;
+   min-height: 830px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.wrapper {
+   max-width: 1440px;
+   width: 100%;
+   padding: 0 120px;
+   margin: 0 auto;
+}
